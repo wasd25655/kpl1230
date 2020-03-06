@@ -1,0 +1,12 @@
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://192.168.91.130:3306/future?useUnicode=true&characterEncoding=utf-8
+jdbc.username=root
+jdbc.password=123456
+cpool.minPoolSize=5
+cpool.maxPoolSize=50
+cpool.maxIdleTime=7200
+cpool.maxIdleTimeExcessConnections=1800
+cpool.acquireIncrement=5
+cpool.autoCommitOnClose=true
+cpool.checkoutTimeout=5000
+api.root=register
